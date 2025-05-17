@@ -1,8 +1,9 @@
-import { RedisStreamStrategy } from '@mark_hoog/redis-streams-transport';
+
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { CustomStrategy } from '@nestjs/microservices';
 import { AppModule } from './app.module';
+import { RedisStreamStrategy } from './external/redis-streams-transport';
 
 const logger = new Logger('Main');
 async function bootstrap() {
