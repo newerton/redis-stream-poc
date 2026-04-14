@@ -23,7 +23,7 @@
   "dependencies": {
     "@nestjs/common": "^11.1.17",
     "@nestjs/core": "^11.1.18",
-    "@nestjs/microservices": "^11.1.6",
+    "@nestjs/microservices": "^11.1.19",
     "@nestjs/platform-express": "^11.1.16",
     "lodash": "^4.18.1",
     "npm": "^11.11.1",
